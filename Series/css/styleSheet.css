@@ -1,0 +1,166 @@
+﻿body {
+    margin: 0;
+}
+
+img:hover {
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#seriesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#barraTopo {
+    border-bottom: 3px solid grey;
+}
+
+.serieDiv {
+    padding: 20px;
+}
+
+#divTopo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#divImg > img {
+    object-fit: cover;
+    width: 200px;
+    height: 280px;
+}
+
+#divDetalhesTexto > p {
+    padding: 5px;
+}
+
+#divDetalhesVideos > h1 {
+    font-weight: bold;
+}
+
+.serieDiv > p {
+    text-align: center;
+}
+
+#divImdbLogo {
+    margin-top: 51px;
+}
+
+#popupVideos {
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    opacity: 0.95;
+    height: 100%;
+    width: 100%;
+}
+
+#divImdbLogo > img {
+    width: 100px;
+    height: 75px;
+}
+
+#divDetalhesRating {
+    margin-left: 20px;
+    width: 225px;
+}
+
+#divEstrelas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.full {
+    height: 18px;
+    width: 18px;
+    margin-right: 2px;
+    background-image: url(/img/imdb-stars.png);
+    background-position: -18px 0;
+}
+
+.empty {
+    height: 18px;
+    width: 18px;
+    margin-right: 2px;
+    background-image: url(/img/imdb-stars.png);
+}
+
+#popupEpisodio {
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    opacity: 0.95;
+    height: 100%;
+    width: 100%;
+}
+
+    #popupEpisodio > object {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+        width: 500px;
+        height: 500px;
+    }
+
+    #popupEpisodio > h1 {
+        font-size: 42px;
+        text-align: center;
+        align-content: center;
+    }
+
+#divDesc {
+    border-bottom: 5px solid black;
+}
+#seriesEpisodios{
+    display:flex;
+    flex-wrap:wrap;
+}
+#divEpisodio {
+    margin: auto;
+    width: 30%;
+}
+#divEpisodio p {
+    text-align:center;
+    }
+#divEpisodio img {
+    object-fit:cover;
+    height: 330px;
+    width: 500px;
+    }
+#sliverValue{
+    bottom:0;
+}
+
+
+
+/*slider*/
+#slider {
+    margin:0;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#slider:hover {
+    opacity: 1;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #5e595b;
+    cursor: pointer;
+    }
+#divSlider{
+    width:100%;
+}
+
